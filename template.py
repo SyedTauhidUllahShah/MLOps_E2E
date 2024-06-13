@@ -9,4 +9,6 @@ list_of_files=[
     ".src/components/__init__.py", # pipeline, collection of different components
     ".src/components/data_ingestion.py",
     ".src/components/data_transformation.py",
+    ".src/components/model_training.py"
+    
 ]
