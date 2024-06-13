@@ -10,6 +10,9 @@ list_of_files=[
     "src/components/data_ingestion.py",
     "src/components/data_transformation.py",
     "src/components/model_training.py",
-    "src/components/model_evaluation.py"
+    "src/components/model_evaluation.py",
+    "src/pipeline/__init__.py",
+    "src/pipeline/training.py",
+    
     
 ]
