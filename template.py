@@ -12,7 +12,8 @@ list_of_files=[
     "src/components/model_training.py",
     "src/components/model_evaluation.py",
     "src/pipeline/__init__.py",
-    "src/pipeline/training.py",
+    "src/pipeline/training_pipeline.py",
+    "src/pipeline/prediction_pipeline.py"
     
     
 ]
