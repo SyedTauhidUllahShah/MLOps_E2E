@@ -5,7 +5,6 @@ import logging
 # Setup basic logging configuration
 logging.basicConfig(level=logging.INFO)
 
-print(Path(r"a\b\c.txt"))
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -35,8 +34,11 @@ list_of_files = [
 ]
 
 for filepath in list_of_files:
+    
     filepath = Path(filepath)
+    
     filedir, filename = os.path.split(filepath)
+    
     if filedir:
         os.makedirs(filedir, exist_ok=True)
         logging.info(f"Created directory: {filedir} for file: {filename}")
